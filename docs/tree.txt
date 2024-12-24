@@ -1,0 +1,27 @@
+── xml ─┐
+        ├─ .gitattributes
+        ├─ .gitignore
+        ├─ Cargo.lock
+        ├─ Cargo.toml
+        ├─ LICENSE
+        ├─ rustfmt.toml
+        ├─ docs ─┐
+        │        └─ tree.txt
+        └─ src ─┐
+                ├─ lib.rs
+                ├─ rules.txt
+                ├─ assets ─┐
+                │          ├─ styles.xml
+                │          └─ test.zip
+                ├─ components ─┐
+                │              ├─ mod.rs
+                │              ├─ macros ─┐
+                │              │          ├─ group.rs
+                │              │          ├─ import.rs
+                │              │          └─ mod.rs
+                │              └─ types ─┐
+                │                        ├─ data_types.rs
+                │                        └─ mod.rs
+                └─ logic ─┐
+                          ├─ mod.rs
+                          └─ xml.rs
